@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in HTML</title>
+    <link rel="shortcut icon" href="flipkart logo" type="image/x-icon">
+</head>
+
+<body>
+    <center>
+        <h1>Flipkart Form</h1>
+    </center>
+    <center>
+        <form action="" autocomplete="off" method="get" style="background-color: lightgreen; width:40%;">
+    
+        <!-- method="post" -->
+        <fieldset>
+            <legend>Enter the details:-</legend>
+            <table >
+                <tr>
+                    <td>
+                        <label for="user">Username</label>
+                    </td>
+                    <td>
+                        <input type="text" name="Username" id="user" placeholder="Enter the username" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="pass">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" name="Password" id="pass" placeholder="Enter the Password" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="add">Address</label>
+                    </td>
+                    <td>
+                        <textarea name="Address" id="add"></textarea>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="mail">E-mail</label>
+                    </td>
+                    <td>
+                        <input type="email" name="Mail" id="mail" placeholder="Enter the mail" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="date">Date-of-birth</label>
+                    </td>
+                    <td>
+                        <input type="week" name="date" id="date" required>
+                        <!-- type= date,datetime,datetimelocal,month,time -->
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="technology">Technologeies</label>
+                    </td>
+                    <td>
+                        <select name="technology" id="technology">
+                            <option value=""></option>
+                            <option value="HTML">HTML</option>
+                            <option value="CSS">CSS</option>
+                            <option value="JS">JS</option>
+                            <option value="REACT JS">REACT JS</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="gender">Gender</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="gender" name="Gender" value="Male">Male
+                        <input type="radio" id="gender" name="Gender" value="Female">Female
+                        <input type="radio" id="gender" name="Gender" value="Others">Others
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="sport">Sports</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="sport" name="Sports" value="cricket">cricket
+                        <input type="checkbox" id="sport" name="sports1" value="Football">Football
+                        <input type="checkbox" id="sport" name="sports2" value="volleyball">volleyball
+                        <input type="checkbox" id="sport" name="sports3" value="throwball">throwball
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="">Upload an image</label>
+                    </td>
+                    <td>
+                        <input type="image" src="https://cdn.pixabay.com/photo/2022/09/18/18/40/apple-logo-7463795_1280.png" height="20vh" width="20vh">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="file">Upload an file</label>
+                    </td>
+                    <td>
+                        <input type="file" id="file" name="file name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="num">Number</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="num" name="Number" minlength="0" maxlength="10">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="search">Search</label>
+                    </td>
+                    <td>
+                        <input type="search" id="search" name="search" >
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="name">enter the names</label>
+                    </td>
+                    <td>
+                        <input type="text" list="names" id="name" >
+                        <datalist id="names">
+                            <option value="lava kumar">lava kumar</option>
+                            <option value="Shreya">Shreya</option>
+                            <option value="Siddharth">Siddharth</option>
+                            <option value="Sindhu">sindhu</option>
+                            <option value="Shilpa">Shilpa</option>
+                        </datalist>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="mob">Mobiles</label>
+                    </td>
+                    <td>
+                        <select name="mobile" id="mob">
+                        <optgroup label="mobile1">
+                            <option value="redmi">redmi</option>
+                            <option value="Realme">Realme</option>
+                            <option value="Iphone">Iphone</option>
+                            <option value="Samsung">Samsung</option>
+                        </optgroup>
+                        <optgroup label="mobile2">
+                            <option value="oppo">oppo</option>
+                            <option value="vivo">vivo</option>
+                            <option value="Oneplus">oneplus</option>
+                            <option value="moto">moto</option>
+                        </optgroup>
+                    </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button type="submit">Submit</button>
+                    </td>
+                    <td>
+                        <button type="reset">Cancel</button>
+                    </td>
+                </tr>
+
+               
+
+            </table>
+        </fieldset>
+    </center>
+    </form>
+</body>
+
+</html>
+
+<!-- tel minlength=0, maxlength=10 -->

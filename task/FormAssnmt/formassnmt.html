@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form</title>
+</head>
+<body style="text-align: center;">
+
+    <form action="" method="post" style="display: inline-block; background-color: rgb(166, 144, 238); padding: 10px;">
+        <h2>Step 1: Your Details</h2>
+        <fieldset>
+        <table align="center">
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" required></td>
+            </tr>
+       
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone:</label></td>
+                <td><input type="tel" id="phone" name="phone" required></td>
+            </tr>
+        </table>
+    </fieldset>
+
+        <h2>Step 2: Delivery Address</h2>
+        <fieldset>
+        <table align="center">
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><textarea id="address" name="address" rows="4" cols="30" required></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="postcode">Post code:</label></td>
+                <td><input type="text" id="postcode" name="postcode" required></td>
+            </tr>
+            <tr>
+                <td><label for="county">County:</label></td>
+                <td><input type="text" id="county" name="county" required></td>
+            </tr>
+        </table>
+    </fieldset>
+
+        <h2>Step 3: Card Details</h2>
+    <fieldset>
+        <table align="center">
+            <tr>
+                <td><label for="card">Card type:</label></td>
+                <td>
+                    <input type="radio" id="card" name="cardtype" value="visa" required><img src="Visa.png" alt="" height="15vh" width="20vh">Visa
+                    
+                    <input type="radio" id="card" name="cardtype" value="amex" required> <img src="Amex.png" alt="" height="15vh" width="20vh">Amex
+                    
+                    <input type="radio" id="card" name="cardtype" value="mastercard" required > <img src="Mastercard.png" alt="" height="15vh" width="20vh">Mastercard
+                    
+                </td>
+            </tr>
+            <tr>
+                <td><label for="cardnumber">Card number:</label></td>
+                <td><input type="text" id="cardnumber" name="cardnumber" required></td>
+            </tr>
+            <tr>
+                <td><label for="securitycode">Security code:</label></td>
+                <td><input type="text" id="securitycode" name="securitycode" required></td>
+            </tr>
+            <tr>
+                <td><label for="nameoncard">Name on card:</label></td>
+                <td><input type="text" id="nameoncard" name="nameoncard" required></td>
+            </tr>
+        </table>
+    </fieldset>
+
+        <br>
+        <input type="submit" value="BUY IT">
+    </form>
+
+</body>
+</html>
