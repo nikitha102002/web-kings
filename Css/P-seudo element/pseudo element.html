@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: palevioletred;
+            text-align: center;
+        }
+
+        #section{
+            height: 400px;
+            width: 100%;
+            background-color: yellow;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #img{
+            height: 300px;
+            width: 40%;
+            background-image: url("https://cdn.pixabay.com/photo/2024/11/21/19/04/elephant-9214527_640.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 300px;
+        }
+        #para{
+            width: 30%;
+        }
+        #para>p{
+            width: 100%;
+            text-align: justify;
+            text-indent: 50px;
+        }
+        #para>p::first-letter{
+            color: red;
+            font-size: 30px;
+        }
+        #para>p::first-line{
+            color: blue;
+        }
+        #para>p::before{
+            content: "😊";
+        }
+        #para>p::after{
+            content: "Thank You";
+            color: brown;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #para>p::selection{
+            background-color: aqua;
+            color: brown;
+        }
+        li::marker{
+            color: blue;
+            font-size: 20px;
+            /* position: absolute;
+            right: 200px; */
+
+        }
+        ol
+        {
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudo element</h1>
+    <div id="section">
+        <div id="img">
+        </div>
+        <div id="para">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam numquam qui animi sunt quibusdam repellat distinctio quaerat sed dicta recusandae voluptas provident autem ipsum, voluptatem quasi quam! Quidem nulla, similique incidunt asperiores provident excepturi temporibus nisi assumenda facilis repudiandae voluptates voluptas non consectetur minima, unde officia laudantium perferendis accusantium nihil? Odit, ea expedita assumenda quo eveniet sint aliquid consequatur pariatur nobis, corrupti illo dolorem. Harum aut officia neque, tempore fuga ad quasi recusandae impedit suscipit voluptatem ducimus iusto nesciunt unde fugit iure rerum, odio provident minima nihil. Illum, accusamus, voluptatum corrupti voluptate accusantium libero dolore quasi dolorum nemo quod dolorem!</p>
+            <ol>
+                <li>Button 1</li>
+                <li>Button 2</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>

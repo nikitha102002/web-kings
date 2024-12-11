@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        body {
+            background-color: khaki;
+        }
+
+        h1 {
+            text-align: center;
+            text-decoration: 3px dashed black underline;
+
+        }
+
+        h2 {
+            position: absolute;
+            top: 200px;
+            left: 450px;
+            font-size: 30px;
+            text-transform: capitalize;
+        }
+
+        div {
+            display: inline;
+            font-size: 20px;
+        }
+
+        div::after {
+            content: "HTML";
+            animation: text 2s linear 0ms infinite normal;
+        }
+
+        @keyframes text {
+            0% {
+                content: "HTML";
+                font-size: 10px;
+                color: brown;
+                position: relative;
+                top: 0px;
+                left: 0px;
+            }
+
+            20% {
+                content: "css";
+                font-size: 20px ;
+                color: blue;
+                position: relative;
+                top: 0px;
+                left: 300px;
+            }
+            60%{
+                content: "JS";
+                font-size: 40px ;
+                color: rgb(208, 24, 82); 
+                position: relative;
+                top: 0px;
+                right: 300px;
+            }
+            80%{
+                content: "React jss";
+                font-size: 60px ;
+                color: rgb(226, 169, 38);
+                position: relative;
+                top: 0px;
+                left: 300px;
+            }
+            100%{
+                content: "Java";
+                font-size: 80px ;
+                color: blue;
+                position: relative;
+                top: 0px;
+                left: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Animations text changing task </h1>
+    <h2>I love <div></div>
+    </h2>
+</body>
+
+</html>

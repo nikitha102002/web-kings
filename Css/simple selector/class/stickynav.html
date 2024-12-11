@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            height: 60px;
+            width: 100%;
+            background-color: brown;
+            color: yellow;
+            align-items: center;
+            position: sticky;
+        }
+        #img
+        {
+            height: 250px;
+            width: 300px;
+            background-image: url("");
+            background-repeat: no-repeat;
+            background-size: 300px 250px;
+        }
+        main{
+
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+            position: absolute;
+            top: 200px;
+        }
+        #contents1{
+            line-height: 50px;
+        }
+        #contents>h1{
+            position: absolute;
+            top: 50px;
+            right: 500px
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+   <h1>Home</h1>
+   <div id="contents">
+    <p>Selection</p>
+    <p>Carts</p>
+   </div>
+</nav> 
+
+<main>
+    <div id="img"></div>
+    <div id="contents1">
+        <h1>Retail Shop owners</h1>
+        <p>Credits go to unsplash and freepik websites for images used in this little fashion by tooplate.</p>
+        <h6>explore products</h6>
+    </div>
+</main>
+</body>
+</html>

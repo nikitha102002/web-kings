@@ -1,0 +1,40 @@
+#id1{
+    height: 130vh;
+    width: 100%;
+    background-image: url(body_bg.png);
+}
+#ai{
+    margin-left:150px;
+    color: white;
+    font-size: 80px;
+}  
+.img{
+        width: 40%;
+        height: auto;
+        position: absolute;
+        right: 60px;
+        top: 250px;
+      
+}
+
+#navbar{
+    height: 40px;
+    width: 90px;
+    color: white;
+}
+
+#id2{
+    width: 100%;
+    height: 60vh;
+    background-image: url(about_left.png);
+    display: flex;
+    top: 0px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+#id3{
+    width: 100%;
+    height: 360vh;
+    background-image: url(body_bg.png);
+}

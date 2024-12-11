@@ -1,0 +1,47 @@
+ *{
+    box-sizing: border-box;
+} 
+
+h1{
+    color: tomato;
+    text-align: center;
+}
+
+
+#box-model{
+    color: aqua;
+    font-size: 45px;
+
+    padding: 100px 50px 70px 60px;
+    /* padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-left: 50px; */
+
+    border-top: 10px solid tomato;
+    border-right: 10px dotted tomato;
+    border-bottom: 10px double tomato;
+    border-left: 10px ridge tomato;
+
+    border-radius: 100px 100px 50px 50px;
+    /* border-top-left-radius: 100px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 50px; */
+
+    border: 50px groove red;
+    /* border-width: 10px;
+    border-color: red;
+    border-style: solid; */
+
+    border-top: 50px dashed blue;
+    /* border-top-style: dashed;
+    border-top-width: 50px;
+    border-top-color: blue; */
+
+    margin: 200px auto ;
+    /* margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin-right: 100px; */
+}

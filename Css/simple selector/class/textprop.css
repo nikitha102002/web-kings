@@ -1,0 +1,30 @@
+body{
+    background-color: aquamarine;
+    background-image: url("https://cdn.pixabay.com/photo/2021/11/15/18/47/nature-6799071_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    text-decoration: 10px rgb(217, 54, 63) solid underline;
+    text-shadow:10px 5px 5px gray;
+}
+
+p{
+    background-image: url("https://cdn.pixabay.com/photo/2018/02/01/06/45/travel-3122702_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 850px;
+    color: white;
+    padding: 50px;
+    width: 60%;
+    margin: 100px auto;
+    text-align: justify;
+    text-indent: 100px;
+    line-height: 50px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    box-shadow: 15px 15px 25px gainsboro;
+}
